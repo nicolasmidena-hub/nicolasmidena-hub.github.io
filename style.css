@@ -199,7 +199,6 @@ header{
 .contenuto{
 
     color:#321B14; 
-    text-align: center; 
     padding: 10px;
     font-size: large;
     line-height: 1.4;
@@ -238,14 +237,12 @@ header{
     width: 95%; 
     margin: 2.5%; 
     background-color:hsl(110, 62%, 38%);
-    margin-top: 8%;
-    /*barra di scorrimento orizzontale creata automaticamente*/
     overflow-x: auto;
 
 }
 
 
-.ContenitoreCarteAutori{
+.contenitore-carte-autori{
           
     position: relative; 
     padding: 20px;
@@ -254,12 +251,13 @@ header{
     margin-top: 30px;
     /*Allineamento orizzontale*/
     display:flex;
+    /*barra di scorrimento orizzontale creata automaticamente*/
     gap: 100px;
     flex-shrink: 0;
 
 }
 
-.cartaautori{
+.carta-autori{
 
     border-radius: 10px;
     width: 600px;
@@ -274,7 +272,7 @@ header{
        
 }
 
-.cartaautori img{
+.carta-autori img{
 
     border:none;
     width: 100%;
@@ -283,7 +281,7 @@ header{
 
 }
 
-.testoautori{
+.testo-autori{
 
     padding: 20px;
     line-height: 1.4;
@@ -291,7 +289,7 @@ header{
 
 }
 
-.cartaautori:hover{
+.carta-autori:hover{
 
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 
