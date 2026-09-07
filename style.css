@@ -239,6 +239,7 @@ header{
     margin: 2.5%; 
     background-color:hsl(110, 62%, 38%);
     margin-top: 8%;
+    /*barra di scorrimento orizzontale creata automaticamente*/
     overflow-x: auto;
 
 }
@@ -253,8 +254,6 @@ header{
     margin-top: 30px;
     /*Allineamento orizzontale*/
     display:flex;
-    /*barra di scorrimento orizzontale creata automaticamente*/
-    overflow-x: auto;
     gap: 100px;
     flex-shrink: 0;
 
